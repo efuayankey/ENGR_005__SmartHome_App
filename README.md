@@ -1,4 +1,43 @@
-TRANSFERRING DATA TO A WEB APPLICATION
+DESIGN SMART HOME (LAB 5)
+
+Author: Efua Yankey
+Date Written: 27th Sept, 2024
+Last updated: 9th Oct, 2024
+
+Overview
+This project uses an MSP430 microcontroller to create a basic smart home system. It includes sensors for gas, temperature, motion, and light, along with LED and buzzer outputs.
+
+Components:
+Gas sensor
+Temperature sensor
+Motion detector
+Light sensor (photoresistor)
+LEDs and buzzer for alerts
+
+Features:
+Monitors gas levels
+Measures temperature
+Detects motion
+Responds to light levels
+Provides visual (LED) and audio (buzzer) alerts
+
+Files:
+gas_sensor.c: Contains code which can be used for Gas detection and LED control
+external_temperature_sensor.c: Contains code which can be used for Temperature reading and LED control
+buzzer_and_LED.c: Contains code which can be used for Motion detection with LED and buzzer response
+Photo-resistor.c: Contains code which can be used for Light sensing and LED control
+
+Setup
+Connect sensors and outputs to the MSP430 as per pin configurations in each file.
+
+Usage
+Compile and flash each file to the MSP430 using a compatible IDE. The system will automatically monitor the environment and respond to changes.
+
+
+
+
+
+TRANSFERRING DATA TO A WEB APPLICATION (LAB 4)
 
 Author: Efua Yankey
 Date Written: 27th Sept, 2024
